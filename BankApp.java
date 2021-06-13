@@ -5,13 +5,13 @@ import javax.swing.JLabel;
 public class BankApp {
 	
 	JFrame frame = new JFrame();
-	JLabel welcomeLabel = new JLabel ("Ini Bank App Page");
+	JLabel welcomeLabel = new JLabel ("Hello");
 	
 	BankApp(String userID){
 		
-		welcomeLabel.setBounds(0,0,350,35);
+		welcomeLabel.setBounds(0,0,250,35);
 		welcomeLabel.setFont(new Font(null,Font.BOLD,25));
-		welcomeLabel.setText("Assalamualaikum "+userID);
+		welcomeLabel.setText("Assalamualaikum"+userID);
 		
 		
 		frame.add(welcomeLabel);
