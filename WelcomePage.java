@@ -2,12 +2,12 @@ import java.awt.Font;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class BankApp {
+public class WelcomePage {
 	
 	JFrame frame = new JFrame();
 	JLabel welcomeLabel = new JLabel ("Ini Bank App Page");
 	
-	BankApp(String userID){
+	WelcomePage(String userID){
 		
 		welcomeLabel.setBounds(0,0,350,35);
 		welcomeLabel.setFont(new Font(null,Font.BOLD,25));
